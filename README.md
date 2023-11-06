@@ -3,8 +3,8 @@ Create Azure AD App that is used by the Cisco Multicloud Defense Controller to m
 1) Create AD App Registration
 2) Create App Service Prinicipal
 3) Create App Secret
-4) Create custom IAM Role
-5) Inventory Event Subscription
+4) Create custom IAM Role for Cisco Multicloud Defense Controller
+5) Create Inventory Event Subscription
 6) Create User Assigned Identity for Gateways to access the key vault and blob storage for pcap
 7) Accept Marketplace agreements for Cisco Multicloud Defense Gateway Image
 
@@ -19,7 +19,7 @@ Create Azure AD App that is used by the Cisco Multicloud Defense Controller to m
 * `subscription_guids_list` - (Optional) List of subscriptions (Ids) to which IAM role is assigned and prepared to be onboarded onto the Cisco Multicloud Defense Controller. Default is to use the current active subscription on the current login
 * `ciscomcd_api_key_file` - (Required) Cisco Multicloud Defense API Key JSON file downloaded from the Cisco Multicloud Defense Controller. This is used add Azure account on Multicloud defense
 * `ciscomcd_azure_cloud_account_name` - (Required) Name used to represent this AWS Account on the Cisco Multicloud Defense Controller.
-* `region` - Required
+* `region` - (Required) Azure Region for Resource Groups of Identity Managment and Event Grid
 * `webhook_endpoint` - (Required) Cisco Multicloud Defense provided Webhook Endpoint (ask Cisco)
 * `inventory_regions` - (Required) List of Azure regions that Cisco Multicloud Defense Controller can monitor and update the inventory for dynamic security policies
 
