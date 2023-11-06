@@ -29,7 +29,7 @@ User Assigned Identity ID: This account can be used when you add Cisco Multiclou
 
 ## Running as root module
 ```
-git clone https://github.com/valtix-security/terraform-azure-setup.git
+git clone https://github.com/wajihalsaid/terraform-azure-setup.git
 cd terraform-azure-setup
 cp values.sample values
 ```
