@@ -6,6 +6,7 @@ Create Azure AD App that is used by the Cisco Multicloud Defense Controller to m
 4) Create custom IAM Role
 5) Inventory Event Subscription
 6) Create User Assigned Identity for Gateways to access the key vault and blob storage for pcap
+7) Accept Marketplace agreements for Cisco Multicloud Defense Gateway Image
 
 # Requirements
 1. Enable terraform to access your Azure account. Check here for the options https://registry.terraform.io/providers/hashicorp/azuread/latest/docs and https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs
