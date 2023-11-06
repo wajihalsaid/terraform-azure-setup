@@ -32,7 +32,7 @@ User Assigned Identity ID: This account can be used when you add Cisco Multiclou
 ```
 git clone https://github.com/wajihalsaid/terraform-azure-setup.git
 cd terraform-azure-setup
-cp values.sample values
+cp values-sample values
 ```
 
 Edit `values` file with the appropriate values for the variables
