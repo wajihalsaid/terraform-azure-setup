@@ -1,0 +1,7 @@
+prefix = "ciscomcd"
+subscription_guids_list = []
+ciscomcd_api_key_file = "ciscomcd_api_key.json"
+ciscomcd_azure_cloud_account_name = ["Azure-01"]
+region = "East US"
+webhook_endpoint = "https://prod1-webhook.mcd.us.cdo.cisco.com:8093/webhook/TENANT_NAME/azure"
+inventory_regions = ["eastus", "eastus2"]
